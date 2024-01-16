@@ -1,0 +1,24 @@
+body {
+    background-image: url("background.gif");
+      background-size: cover; /* or 'contain' */
+      background-repeat: no-repeat;
+    color: white; /* Set text color to white for better visibility on dark background */
+}
+
+        .topbar {
+            background-color: #000000;
+            margin-left: 35%;
+            margin-right: 35%;
+            text-align: center;
+            position: sticky;
+            position: -webkit-sticky; /* Safari support */
+            top: 2%;
+            left: 3%;
+            right: 3%;
+            z-index: 100;
+            border-radius: 25px;
+            align-content: center;
+	    border-width: 3px;
+	    border-color: White;
+        }
+
