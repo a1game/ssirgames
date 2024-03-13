@@ -1,0 +1,29 @@
+body {
+    background-color: #3D3D3D;
+    color: white; /* Set text color to white for better visibility on dark background */
+}
+
+.topholder {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+        .topbar {
+            background-color: #000000;
+            transition: width 1s ease; 
+            width: 0%;
+            text-align: center;
+            position: sticky;
+            position: -webkit-sticky; /* Safari support */
+            top: 5%;
+            left: 3%;
+            right: 3%;
+            z-index: 100;
+            border-radius: 25px;
+            align-content: center;
+	    border-width: 3px;
+	    border-color: White;
+        }
