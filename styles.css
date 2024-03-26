@@ -13,8 +13,7 @@ body {
 
         .topbar {
             background-color: #000000;
-            transition: width 1s ease; 
-            width: 0%;
+            width: 35%;
             text-align: center;
             position: sticky;
             position: -webkit-sticky; /* Safari support */
@@ -27,3 +26,53 @@ body {
 	    border-width: 3px;
 	    border-color: White;
         }
+
+.gameholder {
+    background-color: #000000;
+    width: 94%;
+    text-align: center;
+    left: 3%;
+    right: 3%;
+    z-index: 100;
+    border-radius: 25px;
+    align-content: center;
+border-width: 3px;
+border-color: White;
+}
+.game {
+    position: relative;
+    width: 5%;
+    bottom: 1%;
+    top: 1%;
+    border-radius: 12px;
+    align-content: center;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+
+}
+.gameholderholder {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.55);
+    width: 80%;
+    top: 3px;
+}
+.gameimg {
+    align-content: center;
+    border-radius: 12px;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+  
+}
